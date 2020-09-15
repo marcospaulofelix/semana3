@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ERRADICAÇÃO DA POBREZA</title>
+ <style>
+     html,
+body {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Roboto, 'Open Sans', Arial, sans-serif;
+}
+section {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px 0 20px 0;
+}
+section hr {
+  width: 30px;
+}
+.cor_fundo {
+  background: rgb(196, 189, 189);
+}
+/* --------  Header  -------- */
+header {
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color:rgb(90, 86, 86)
+}
+header #logo {
+  position: absolute;
+  top: 10px;
+  #float: center;
+  #height: 40px;
+  width: 170px;
+  margin-left: 5%;
+}
+header #logo img{
+  max-height: 100%;
+}
+header .menu {
+  float: right;
+  list-style: none;
+#  margin-top: 2px;
+  margin-right: 5%;
+}
+header .menu li {
+  float: left;
+  font-size: 18px;
+  padding: 20px 20px 20px 20px;
+}
+header .menu li a {
+  color: initial;
+  text-decoration: initial;
+  color: white;
+}
+header .menu li:hover {
+  background-color: black;
+  border-radius: 15px;
+
+}
+/* --------  Capa  -------- */
+figure {
+  margin: 0 auto;
+}
+figure .imagem_fundo {
+  background: url(fundo3.jpg); 
+  background-size: cover;
+  height: 160%;
+  padding: 160px;
+}
+
+figure .titulo {
+  color: #FFF;
+  line-height: 0.9;
+  text-shadow: 1px 1px black;
+}
+figure h1.titulo {
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin: 15% 20% 0% 20%;
+  padding-bottom: 30px;
+}
+figure h2.titulo {
+  padding-top: 20px;
+  font-size: 30px;
+  margin: 0 30% 0 30%;
+  border-top: 3px solid white;
+  padding-bottom: 30px;
+  letter-spacing: 2px;  
+}
+.cta1 {
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: initial;
+  font-size: 20px;
+}
+.cta1:hover {
+  background-color: #01acea;
+  border: 0px;
+}
+/* --------  Colunas  -------- */
+.coluna {
+  float: left ;
+  padding: 0 5%;
+  position: relative;
+}
+.coluna.quatro {
+  width: 15%;
+  padding: 0 5% 0 5%;
+}
+.coluna.tres {
+  width: 29%;
+  padding: 0 2%;
+}
+.coluna.dois {
+  width: 40%;
+}
+.coluna .icone {
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  text-align: center;
+  margin: 0 auto;
+}
+.coluna .icone img{
+  max-width: 60%;
+  max-height: 60%;
+  margin: 15px;
+}
+.coluna:hover > .icone {
+  background: lightblue;
+}
+.coluna img {
+  height: 300px;
+  width: 100%;
+}
+.coluna iframe { 
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* --------  Textos  -------- */
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}    
+.esquerda {
+  text-align:left;
+}
+.direita {
+  text-align: right;
+}
+.centro {
+  text-align: center;
+}
+.justificado {
+  text-align: justify;
+}
+/* --------  Footer  -------- */
+footer {
+  background-color: #01acea;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px 0 50px 0;
+  color: #fff;
+}
+
+.link {
+  color: white;
+}
+.link:hover {
+  color: black;
+}
+.link2 {
+  color: black;
+  text-decoration: initial;  
+}
+.link2:hover {
+  color: black;
+}
+ 
+footer .container {
+  padding: 30px 0 50px 0;
+}
+/* --------  Responsividade  --------*/
+@media all and (max-width: 768px) {
+  .coluna, .coluna.quatro, .coluna.tres, .coluna.dois {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+  }
+  header #logo {
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center
+    
+    
+    ;
+  }
+  .menu {
+    visibility: hidden;
+  }
+ </style>
+</head>
+<body>
+  <!-- MENU -->
+  <header>
+    <div id="logo"><img src="img/icone1.png" alt="JA - Meu Primeiro Site"/></div>
+    <ul class="menu">
+      <li><a href="#menu1">Objetivos</a></li>
+      <li><a href="#menu2">Metas</a></li>
+      <li><a href="#menu3">Notícias</a></li>
+      <li><a href="#menu4">Sobre</a></li>
+    </ul>
+  </header>
+  <!--CAPA-->
+  <figure id="capa" class="centro">
+    <div class="imagem_fundo">
+      <h1 class="titulo">ERRADICAÇÃO DA POBREZA</h1>
+    </div>
+  </figure>
+  <!--OBJETIVOS-->
+  <section id="menu1" class="cor_fundo">
+    <div class="coluna dois">
+ <iframe width="640" height="360" src="https://www.youtube.com/embed/wLP6roH0XvU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="coluna dois">
+      <h1 class="centro" >Objetivos</h1>
+      <hr>
+      <p class="justificado">
+        Reduzir pelo menos à metade, até 2030, a proporção de homens, mulheres e crianças que vivem na pobreza extrema, em todas as suas dimensões. Essa é uma das metas do Objetivo de Desenvolvimento Sustentável número 1: “Erradicação da Pobreza”. De acordo com as realidades nacionais, cada país deverá assumir o compromisso de cumprir a meta e colaborar com o desenvolvimento local. No Brasil, o tema faz parte da agenda de trabalho de diversos segmentos: governo, setor privado, academia e sociedade civil organizada.
+
+Na última década, mais de 36 milhões de pessoas deixaram a pobreza crônica e multidimensional no Brasil, de acordo com o Ministério de Desenvolvimento Social e Combate à Fome (MDS). Em 2005, aproximadamente 7% da população não tinha acesso adequado a saúde, educação, habitação e bens e serviços essenciais. Em 2014, esse número caiu para 1%.
+
+“Conseguimos avançar no tema exatamente porque não tratamos a pobreza como fenômeno natural. O Estado tem um papel fundamental, não só aportando ações como a construção de um piso social, como é o caso do programa Bolsa Família, mas olhar a pobreza nas suas várias dimensões. Essa é uma agenda que estava em prática quando começamos a trabalhar os Objetivos de Desenvolvimento do Milênio com o PNUD Brasil e, agora, está colocada de forma evidente com os Objetivos de Desenvolvimento Sustentável”, afirmou a ministra do Desenvolvimento Social e Combate à Fome, Tereza Campello, em entrevista exclusiva ao Programa da ONU para o Desenvolvimento (PNUD).
+
+Para erradicar a pobreza, o ODS 1 estabelece que a mobilização significativa de recursos a partir de uma variedade de fontes, incluindo a cooperação para o desenvolvimento, é essencial ao cumprimento das metas. Outro foco é a construção da resiliência dos pobres e daqueles em situação de vulnerabilidade, com acesso às novas tecnologias e serviços financeiros, incluindo microfinanças.
+
+Erradicação da pobreza, crescimento econômico e sustentabilidade formam o tripé para a construção de um planeta mais sustentável nos próximos 15 anos, dentro da Agenda 2030. Para o cumprimento dos Objetivos Globais e a erradicação da pobreza, a participação de governos, setor privado, academia e sociedade civil é fundamental.
+      </p>
+      <p class="justificado">
+        Na avaliação do professor-titular do Centro de Desenvolvimento Sustentável da Universidade de Brasília, Marcel Bursztyn, a pobreza está associada a desigualdades e, para alcançar um nível sustentável de desenvolvimento, é essencial trabalhar com esses dois conceitos de forma integrada.
+
+“O Brasil inovou em proteção social associada à redução da pobreza, ao inserir um imenso contingente de pessoas na política de transferência de renda, como é o caso do Bolsa Família. Foi seguido por vários países e, sem dúvida, promoveu-se uma formidável redução da pobreza extrema, ainda que não tenha sido reduzida a desigualdade. Os Objetivos de Desenvolvimento Sustentável abrem uma oportunidade para integrar as três dimensões do desenvolvimento: proteger a economia, as pessoas e o ambiente de forma sinérgica”, avalia Marcel Bursztyn.
+
+No setor privado, o desenvolvimento de projetos inclusivos, focados no empoderamento dos trabalhadores e das regiões afetadas pelas atividades das empresas, contribui para a erradicação da pobreza. Um exemplo é o desenvolvimento de cisternas de plástico, pela Braskem, para levar água aos habitantes do semiárido nordestino. Aproximadamente 5 milhões de habitantes possuem, agora, acesso à água de qualidade para o consumo.
+
+“Além do investimento e geração de empregos diretos e indiretos, o fortalecimento do uso da mão de obra local colabora com o ODS da erradicação da pobreza. Com a oferta de soluções de produtos e serviços, apoiamos o desenvolvimento da sociedade, como foi o caso das cisternas no semiárido. Na área de investimento social, com o projeto Ser+ realizador, apoiamos a inclusão de mais de três mil catadores de recicláveis, apoiando a gestão e fomentando as melhorias das instalações das cooperativas, o que gerou o aumento da renda”, afirma o diretor de desenvolvimento sustentável da Braskem, Jorge Soto.
+      </p>
+     
+  
+  <!--METAS-->
+  <section id="menu2">
+    <h1>Metas</h1>
+    <hr>
+    <div class="coluna quatro">
+      <div class="icone">
+        <img src="img/icone1.png" alt="icone1"/>
+      </div>
+      <h1 class="centro">Meta 1</h1>
+      <p class="centro">Reduzir pelo menos à metade,até 2030,a proporção de homens ,mulheres e crianças que vivem na pobreza extrema,em todas as suas dimensões </p>
+    </div>   
+    <div class="coluna quatro">
+      <div class="icone">
+        <img src="img/icone1.png" />
+      </div>
+      <h1 class="centro">Meta 2</h1>
+      <p class="centro">A acabar com todas as formas de pobreza e fome no mundo</p>
+    </div>
+    <
+  <!--NOTICIAS-->
+  <section id="menu3" class="cor_fundo">
+    <h1>Notícias</h1>
+    <hr>
+    <h2>Veja as últimas notícias sobre ODS1</h2>
+    <div class="coluna tres fundo">
+      <a class="link2" href="https://nacoesunidas.org/projeto-do-unicef-de-prevencao-a-covid-19-comeca-em-10-comunidades-do-rio/"target="_blank">
+      <img src="img/img3.jpg" alt="Evento Virtual" />
+      <h3 class="centro">projeto da unicef de prevenção a covid 19 começa em 10 comunidades do rio</h3>
+      </a>
+    </div>
+    <div class="coluna tres fundo">
+      <a class="link2" href="https://nacoesunidas.org/projeto-financiado-pela-onu-beneficia-produtores-rurais-do-semiarido-brasileiro//" target="_blank">
+      <img src="img/img2.jpg" alt="Programa de Resposta" />
+      <h3 class="centro">projeto financiado pela onu beneficia produtores rurais do semiárido brasileiro</h3>
+      </a>
+    </div>
+    <div class="coluna tres fundo">
+      <a class="link2" href=https://nacoesunidas.org/iniciativas-da-sociedade-civil-amenizam-os-impactos-da-covid-19-nas-periferias/"/" target="_blank">
+      <img src="img/img1.jpg" alt="Como Alimentar" />
+      <h3 class="centro">iniciativas da sociedade civil amenizam os impactos da covid 19 nas periferias</h3>
+      </a>
+    </div>
+  </section>
+  <!--SOBRE-->
+  <section id="menu4" class="cor_fundo">
+    <div class="coluna dois">
+      <h1 class="centro" >Sobre mim</h1>
+      <p class="justificado">Meu nome é Marcos Paulo Félix Da Silva</p>
+      <p class="justificado">Aluno do Colégio Estadual Irmã Gabriela em Goiânia- GO.</p> 
+      <p class="justificado">Moro em Goiânia - GO e escolhi a ODS 1 -  Erradicação da Pobreza ,porque eu achei esse tema muito importante
+     
+    </div>
+    <div class="coluna dois">
+      <img src= eump.jpg"
+    </div>
+  </section>
+  <!--RODAPÉ-->
+  <footer>
+    <div class="coluna dois">
+      <h1 class="esquerda">Meu primeiro site</h1>
+      <p>Projeto desenvolvido durante o curso Meu primeiro site, promovido pela 
+      <a class="link" href="https://www.jabrasil.org.br" target="_blank">Junior Achievement Brasil</a> e 
+      <a class="link" href="https://www.microsoft.com/pt-br" target="_blank">Microsoft.</a></p>
+    </div>
+    <div class="coluna dois">
+      <h1>Créditos</h1>
+      <p>onu brasil</p>
+    </div>
+  </footer>
+</body>
+</html>
